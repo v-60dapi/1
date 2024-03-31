@@ -24,7 +24,7 @@ steps:
 - task: AzureWebApp@1
   inputs:
     azureSubscription: 'Azure subscription 1(1)(e8515213-fc4a-411b-a304-e14a787e7f0f)'
-    appType: 'webAppLinux'
+    appType: 'webAppWindows'
     appName: 'msdocs-python-webapp-quickstart-678'
     deployToSlotOrASE: true
     resourceGroupName: 'msdocs-python-webapp-quickstart'
